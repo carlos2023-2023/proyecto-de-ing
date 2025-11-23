@@ -1,0 +1,188 @@
+/* ------------------ RESET ------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e8ecef;
+    color: #333;
+}
+
+/* ------------------ HEADER ------------------ */
+header {
+    background: #1d3557;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left h1 {
+    font-size: 26px;
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+header .right a {
+    margin-left: 10px;
+}
+
+/* ------------------ NAV ------------------ */
+nav {
+    background: #457b9d;
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ------------------ CARDS ------------------ */
+.card {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    color: #1d3557;
+    background: white;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+
+/* Fondo suave */
+.gradient-card {
+    background: linear-gradient(135deg, #ffffff, #d8e3e8);
+}
+
+/* ------------------ MAPA ------------------ */
+.mapa-simulacion {
+    margin-top: 20px;
+    height: 300px;
+    border-radius: 12px;
+    background: #a8dadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d3557;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* ------------------ INFO ------------------ */
+.info-container {
+    margin-top: 15px;
+}
+
+.info-item {
+    background: #f1f5f8;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 5px solid #1d3557;
+    font-size: 1.1rem;
+}
+
+/* ------------------ BOTONES ------------------ */
+.btn-primary {
+    background: #457b9d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #1d3557;
+}
+
+.btn-secondary {
+    background: #457b9d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background: #33617a;
+}
+
+/* ------------------ FOOTER ------------------ */
+footer {
+    background: #1d3557;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+
+/* ------------------ LOGIN ------------------ */
+
+.login-container {
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #999;
+    outline: none;
+    margin-top: 5px;
+}
+
+.error-text {
+    margin-top: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+
+
